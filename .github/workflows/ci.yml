@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  build-and-train:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,10 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run basic test
+    - name: Train churn model
       run: |
-        echo "Running dummy test"
-        python -c "print('Test passed')"
+        python src/train.py
+
+    - name: Confirm model saved
+      run: |
+        ls models/
