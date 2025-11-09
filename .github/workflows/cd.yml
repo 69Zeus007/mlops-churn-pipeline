@@ -19,6 +19,8 @@ jobs:
           git lfs install
       - name: Pull LFS files
         run: git lfs pull
+      - name: Push LFS objects
+        run: git lfs push --all origin
     
 
       - name: Push to Hugging Face Space
