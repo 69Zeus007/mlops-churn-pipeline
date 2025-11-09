@@ -1,2 +1,1 @@
-models/churn_model.pkl filter=lfs diff=lfs merge=lfs -text
 mlops-churn-api/models/churn_model.pkl filter=lfs diff=lfs merge=lfs -text
