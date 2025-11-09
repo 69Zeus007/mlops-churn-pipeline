@@ -1,0 +1,19 @@
+name: Deploy to Hugging Face
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Push to Hugging Face Space
+        run: |
+          git config --global user.email "sj1025176601@gmail.com"
+          git config --global user.name "69Zeus007"
+          git remote add hf https://huggingface.co/spaces/69Zeus007/mlops-churn-api || true
+          git push https://69Zeus007:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/69Zeus007/mlops-churn-api main --force
