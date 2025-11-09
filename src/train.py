@@ -32,4 +32,4 @@ print(f"Model accuracy: {accuracy:.2f}")
 
 # Save model
 os.makedirs('models', exist_ok=True)
-joblib.dump(model, 'models/churn_model.pkl')
+joblib.dump(model, 'mlops-churn-api/models/churn_model.pkl')
