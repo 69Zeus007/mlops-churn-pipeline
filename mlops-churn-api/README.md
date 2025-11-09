@@ -19,7 +19,6 @@ This Space showcases a machine learning model that predicts customer churn based
 Enter customer details:
 - Tenure (months)
 - Monthly Charges
-- Total Charges
 
 Click **Submit** to get a prediction: `Churn` or `No Churn`.
 ## What Does “Churn” Mean?
@@ -49,5 +48,4 @@ This project is part of my ML Engineering portfolio, demonstrating:
 ## Author
 Created by [69Zeus007](https://huggingface.co/69Zeus007)   
 Check out more projects on [GitHub](https://github.com/69Zeus007)
-
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
