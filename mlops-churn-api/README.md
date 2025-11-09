@@ -44,7 +44,7 @@ This prediction helps businesses proactively retain customers and reduce revenue
 This project is part of my ML Engineering portfolio, demonstrating:
 - End-to-end model deployment
 - CI/CD integration (via GitHub Actions)
-- Cloud hosting and UI design
+- Cloud hosting and UI design(working on UI Design)
 
 ## Author
 Created by [69Zeus007](https://huggingface.co/69Zeus007)   
